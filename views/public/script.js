@@ -78,7 +78,7 @@ h1 {
   color: white;
 }
 
-and finally copy and paste this code into public/script.js
+// and finally copy and paste this code into public/script.js
 // You can add client-side functionality here
 document.addEventListener('DOMContentLoaded', () => {
   console.log('App loaded!');
