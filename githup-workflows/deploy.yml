@@ -1,0 +1,16 @@
+name: CI/CD to EC2 with Docker
+
+on: 
+   push:
+     branches:
+        - rain
+
+jobs:
+  deploy:
+    name: deploy to EC2
+    run-on: ubuntu-latest
+
+    steps:
+      . name: checkout code
+        uses: action/checkout    
+        
